@@ -25,7 +25,7 @@ The application is structured using a clean, grid-based executive layout designe
 
 * **Tool:** Power BI Desktop
 * **Data Transformation:** Power Query (Engineered a robust ETL pipeline utilizing a master staging query to feed downstream tables).
-* **Data Modeling:** Optimized Star Schema architecture, separating the raw flat file into distinct Dimension tables (`dim_user`, `dim_campaign`, `dim_channel`) and a central Fact table (`fact_marketing_performance`) to handle multi-touch interaction logic flawlessly.
+* **Data Modeling:** Optimized Star Schema architecture, separating the raw flat file into distinct Dimension tables (`dim_user`, `dim_campaign`, `dim_channel`) and a central Fact table (`dim_marketing_performance`) to handle multi-touch interaction logic flawlessly.
 
 **Advanced DAX (Data Analysis Expressions)**
 
